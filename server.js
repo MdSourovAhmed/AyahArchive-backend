@@ -12,7 +12,7 @@ const app = express();
 // Enable CORS for frontend origin
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from Vite frontend
+    origin: ["https://ayah-archive-frontend.vercel.app","http://localhost:5173"], // Allow requests from Vite frontend
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   })
