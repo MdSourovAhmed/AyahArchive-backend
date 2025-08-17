@@ -23,6 +23,7 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/verses", require("./routes/verseRoutes"));
 app.use("/api/quiz", require("./routes/quizRoutes"));
 app.use("/api/stats", require("./routes/statsRoutes"));
+app.use('/api/quran', require('./routes/quranRoutes'));
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
