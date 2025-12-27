@@ -26,7 +26,7 @@
 //       }));
 //     });
 
-//     // Clear existing data and insert new verses
+//     // Clearing existing data and insert new verses
 //     await QuranVerse.deleteMany({});
 //     await QuranVerse.insertMany(verses);
 //     console.log('Quran data populated successfully');
